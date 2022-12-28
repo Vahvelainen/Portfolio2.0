@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Hero from '@lib/hero.svelte'
+  import History from '@lib/history.svelte'
+  import Bio from '@lib/bio.svelte'
+  import Work from '@lib/work/index.svelte'
+</script>
+
+<Hero/>
+<Work/>
+<Bio/>
+<History/>
