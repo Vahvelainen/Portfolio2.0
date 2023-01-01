@@ -1,6 +1,6 @@
 {
   "title": "aMapper",
-  "media": "https://vahvelainen.com/static/media/menddie.png",
+  "media": "./images/menddie.png",
   "full_page" : "/work/amapper",
   "paragraphs": [
     "Browser based Ai Affinity mapper tool",
