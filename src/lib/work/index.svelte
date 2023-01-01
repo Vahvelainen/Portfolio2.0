@@ -5,12 +5,14 @@
 <section class="work">
   {#each index as work}
     <article>
-      <div class="image" style="background-image: url({work.media});" ></div>
-      <div class="info">
-        <h3>{work.title}</h3>
-        <p>{work.paragraphs[0]}</p>
-        <p>{work.paragraphs[work.paragraphs.length-1]}</p>
-      </div>
+      <a href="/work#{work.title}">
+        <div class="image" style="background-image: url({work.media});" ></div>
+        <div class="info">
+          <h3>{work.title}</h3>
+          <p>{work.paragraphs[0]}</p>
+          <p>{work.paragraphs[work.paragraphs.length-1]}</p>
+        </div>
+      </a>
     </article>
   {/each}
 </section>

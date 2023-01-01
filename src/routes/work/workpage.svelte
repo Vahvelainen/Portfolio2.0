@@ -4,7 +4,7 @@
 
 <section class="work">
   {#each index as work}
-    <article>
+    <article id={work.title}>
       <img
         src={work.media}
         alt={"Picture of " + work.title + " by Leevi Vahvelainen for " + work.paragraphs[work.paragraphs.length-1]}
