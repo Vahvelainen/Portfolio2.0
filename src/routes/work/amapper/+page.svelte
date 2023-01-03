@@ -1,0 +1,74 @@
+<svelte:head>
+  
+</svelte:head>
+
+<section class="work-view">
+  <img data-fancybox="aMapper" class="header" src="../images/aMapper.png">
+
+  <h1>aMapper</h1>
+
+  <ul>
+    <li>Ai based affinity mapping tool</li>
+    <li>Tool goups input documents (ie. customer feedback) into similiar themes</li>
+    <li>Algorithm used is Spherical K-means mapping with TF-IDF vectorization</li>
+    <li>All in your browser window: no data is transferred trough internet</li>
+  </ul>
+
+  <p>
+    A personal weekend project of mine. I started working with it after taking Reaktor's Elements of Ai -courses and realising I could program something like this myself.
+  </p>
+
+  <p>
+    On top of the technical side, the project is an minimalistic styling experiment for an online tool. The aim of the design is to make the tool easy to approach, use, and to play with.
+  </p>
+
+  <p>
+    The tool is work in progress. The next step is to ask feedback from design or other professionals who might find it usefull. From this, determine is this kind of tool usefull at all and develop it accordingly.  
+  </p>
+
+  <p>
+    <a href="https://amapper.vahvelainen.com/">
+      Link to an online demo
+    </a>
+  </p>
+
+  <p>
+    <a href="https://github.com/Vahvelainen/aMapper">
+      Link to github repository
+    </a>
+  </p>
+
+  <a class='nav-back' href="/work" data-link>Return to other works</a>
+</section>
+
+<style>
+  .work-view {
+    background-color: antiquewhite;
+    padding: 0 calc(50% - 300px);
+  }
+  img.header {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 6em;
+    max-height: 30vh;
+    object-fit: cover;
+  }
+  h2, h3 {
+    padding-top: 4em;
+    font-weight: 600;
+  }
+  img{
+    max-width: 40%;
+    max-height: 400px;
+  }
+  .nav-back {
+    display: block;
+    margin-top: 4em;
+    margin-bottom: 6em;
+  }
+  @media all and (max-width: 600px) {
+    p, h1, h2, h3 {
+      padding: 0 15px;
+    }
+  }
+</style>

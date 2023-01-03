@@ -14,6 +14,10 @@
         {#each work.paragraphs as paragraph}
           <p>{paragraph}</p>
         {/each}
+
+        {#if work.full_page }
+          <a href="work.full_page">Read More</a>
+        {/if}
       </div>
     </article>
   {/each}

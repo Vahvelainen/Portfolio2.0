@@ -1,0 +1,109 @@
+<section class="work-view">
+  <img data-fancybox="menddie" alt="Old Menddie mobileviews designed by Leevi Vahvelainen" class="header" src="../images/menddie.png">
+  
+  <h1>Menddie.com</h1>
+  
+  <p>
+    Menddie is an ecommerce platform for repair services. More precisely, a marketplace for tailors and sewing services to sell repairs for clothing items, with online payment and delivery both ways from customer to service providers and back.
+  </p>
+  
+  <p>
+    The platform had all the functionalities expected from an online marketplace. Customers could choose between pre-listed repair prices or as a quote for more complicated jobs. 
+  </p>
+  
+  <p>
+    Menddie is a startup founded originally by Leevi Vahvelainen (Me) and Henri Kämäräinen in late 2019. Leevi did the design work for the platform and the service, while Henri focussed the business side. Later additions to the developing team where Elias Ojala and Simo Naatula, both doing software development. 
+  </p>
+  
+  
+  <h2>Key features the platform included:</h2>
+  <ul>
+    <li>Ability to list and find pre-priced repair services</li>
+    <li>Quote asking system between customers and service providers</li>
+    <li>Online payment and order experience</li>
+    <li>Immediate 7-digit delivery code after purchase</li>
+    <li>Service provider review and reting</li>
+  </ul>
+  
+  <img data-fancybox="menddie" src="../images/menddie/Group 8.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 13.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 5.png">
+  
+  <h2>Pre-priced repairs</h2>
+  
+  <p>The first and arguably the more important feature of the online buying experience. The very first challenge in listing repair prices was the way they need to be categorized. The solution was structured in the same way as a discussion with a tailor.</p>
+  
+  <ol>
+      <li>What is it that you have?</li>
+      <li>What&#39;s broken with it?</li>
+      <li>How do you want it to be fixed?</li>
+  </ol>
+    
+  <img data-fancybox="menddie" src="../images/menddie/Group 3.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 1.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 2.png">
+  
+  <h3>Service provider back-office for listing repairs</h3>
+  
+  <img data-fancybox="menddie" src="../images/menddie/Group 6.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 4.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 14.png">
+  
+  <h2>Quoting system</h2>
+    
+  <p>Originally developed to gain information about what is missing from the listings. A way to ask quotes from the service providers proved to be an excellent way to order the more unique repair jobs.</p>
+  
+  <p>Customers would simply leave a request and in the time span of three days they would get offers to their emails with a direct link to go and purchase the offered repair.</p>
+  
+  <img data-fancybox="menddie" src="../images/menddie/Group 10.png">
+  
+  <h2>Cart & Checkout</h2>
+  <p>The customerr experience was tied together with a very sophisticated checkout process.</p>
+  <img data-fancybox="menddie" src="../images/menddie/Group 7.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 12.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 9.png">
+  <img data-fancybox="menddie" src="../images/menddie/Group 11.png">
+  
+  <h2>
+    Later pivot
+  </h2>
+  
+  <p>
+    After I (Leevi) left the company, the focus shifted towards working with clothing brands in order to provide brand specific repair services.
+  </p>
+  
+  <a class='nav-back' href="/work" data-link>Return to other works</a>
+</section>
+
+
+<style>
+  .work-view {
+    background-color: antiquewhite;
+    padding: 0 calc(50% - 300px);
+  }
+  img.header {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 6em;
+    max-height: 30vh;
+    object-fit: cover;
+  }
+  h2, h3 {
+    padding-top: 4em;
+    font-weight: 600;
+  }
+  img{
+    max-width: 40%;
+    max-height: 400px;
+  }
+  .nav-back {
+    display: block;
+    margin-top: 4em;
+    margin-bottom: 6em;
+  }
+  @media all and (max-width: 600px) {
+    p, h1, h2, h3 {
+      padding: 0 15px;
+    }
+  }
+</style>
