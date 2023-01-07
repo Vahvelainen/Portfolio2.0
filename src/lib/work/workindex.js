@@ -9,19 +9,21 @@ import Rabbit from './Robot-rabbit.json'
 import Tape from './Tape-applicator.json'
 import Valmet from './Valmet.json'
 import Water from './Water-purifier.json'
+import Kutsu from './Kutsu.json'
 
 const index = [
+  Kutsu,
   aMapper,
+  Menddie,
+  Valmet,
   Cafeteria,
-  Chest,
   Course,
   Dash,
-  Lustre,
-  Menddie,
   Rabbit,
-  Tape,
-  Valmet,
   Water,
+  Tape,
+  Lustre,
+  Chest,
 ]
 
 export default index

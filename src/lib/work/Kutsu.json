@@ -1,0 +1,10 @@
+{
+  "title": "Kutsu.app",
+"media": "./images/kutsu.png",
+  "full_page" : "/work/kutsu",
+  "paragraphs": [
+    "Web based event signup application.",
+    "Personal project for web design and developement.",
+    "2022"
+  ]
+}
