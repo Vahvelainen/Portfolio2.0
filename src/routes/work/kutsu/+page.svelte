@@ -1,5 +1,5 @@
 <section class="work-view">
-  <img data-fancybox="kutsu" alt="Old Menddie mobileviews designed by Leevi Vahvelainen" class="header" src="../images/kutsu.png">
+    <img data-fancybox="kutsu" alt="Old Menddie mobileviews designed by Leevi Vahvelainen" class="header" src="../images/kutsu.png">
   
   <h1>Kutsu.app</h1>
   
@@ -22,10 +22,10 @@
     Kutsu started as a prototype for the UX flow in Figma, just as a sanity check for what would it mean to have event invitations work only with online platforms. The further design included figuring out what other functions and pages were necessary, such as registration for the event creators, etc. Figma was used throughout the project to separate the design stage from the development. The workflow was to draw the UX flowchart in Figma, draw at least a wireframe, and only after that develop the front-end and functions.
   </p>
 
-  <img src="../images/kutsu/firstDrafts.png" alt="Kutsu.app first drafts in figma">
-  <img src="../images/kutsu/flowAndDB.png" alt="Kutsu.apps Ux flow and database structure in figma">
-  <img src="../images/kutsu/wireframes.png" alt="Kutsu.app wireframes in figma">
-  <img src="../images/kutsu/frontPageFigma.png" alt="Kutsu.app landingpage draft in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/firstDrafts.png" alt="Kutsu.app first drafts in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/flowAndDB.png" alt="Kutsu.apps Ux flow and database structure in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/wireframes.png" alt="Kutsu.app wireframes in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/frontPageFigma.png" alt="Kutsu.app landingpage draft in figma">
 
   <h2>
     Developing
@@ -45,10 +45,10 @@
     The development required roughly six weeks before being already too good to be really called an MVP. Some bugs and features such as the option to delete events were still missing and added during and before the first pilots.
   </p>
 
-  <img src="../images/kutsu/eventPage.png" alt="Event poage of the Kutsu.app">
-  <img src="../images/kutsu/eventEdit.png" alt="Kutsu.apps Ux flow and database structure in figma">
-  <img src="../images/kutsu/landingPage.png" alt="Kutsu.app wireframes in figma">
-  <img src="../images/kutsu/questionsAdd.png" alt="Kutsu.app wireframes in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/eventPage.png" alt="Event poage of the Kutsu.app">
+    <img data-fancybox="kutsu" src="../images/kutsu/eventEdit.png" alt="Kutsu.apps Ux flow and database structure in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/landingPage.png" alt="Kutsu.app wireframes in figma">
+    <img data-fancybox="kutsu" src="../images/kutsu/questionsAdd.png" alt="Kutsu.app wireframes in figma">
 
   <h2>
     Piloting and feedback
