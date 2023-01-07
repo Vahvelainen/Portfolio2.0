@@ -74,36 +74,3 @@
   
   <a class='nav-back' href="/work" data-link>Return to other works</a>
 </section>
-
-
-<style>
-  .work-view {
-    background-color: antiquewhite;
-    padding: 0 calc(50% - 300px);
-  }
-  img.header {
-    width: 100%;
-    max-width: none;
-    margin-bottom: 6em;
-    max-height: 30vh;
-    object-fit: cover;
-  }
-  h2, h3 {
-    padding-top: 4em;
-    font-weight: 600;
-  }
-  img{
-    max-width: 40%;
-    max-height: 400px;
-  }
-  .nav-back {
-    display: block;
-    margin-top: 4em;
-    margin-bottom: 6em;
-  }
-  @media all and (max-width: 600px) {
-    p, h1, h2, h3 {
-      padding: 0 15px;
-    }
-  }
-</style>
