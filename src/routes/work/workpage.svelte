@@ -1,14 +1,15 @@
 <script>
   import index from '@lib/work/workindex'
+  import Media from '@lib/components/workmedia.svelte'
 </script>
 
 <section class="work">
   {#each index as work}
     <article id={work.title}>
-      <img
+      <Media 
         src={work.media}
         alt={"Picture of " + work.title + " by Leevi Vahvelainen for " + work.paragraphs[work.paragraphs.length-1]}
-      >
+      />
       <div class="info">
         <h3>{work.title}</h3>
         {#each work.paragraphs as paragraph}
@@ -16,7 +17,7 @@
         {/each}
 
         {#if work.full_page }
-          <a href="work.full_page">Read More</a>
+          <a href={work.full_page} >Read More</a>
         {/if}
       </div>
     </article>
@@ -42,12 +43,6 @@
   article, a {
     display: flex;
     margin-bottom: 8em;
-  }
-  embed, img, video {
-    object-fit: cover;
-    height: 30em;
-    margin-right: 4em;
-    max-width: 60vw;
   }
   h3 {
     font-weight: 700;
