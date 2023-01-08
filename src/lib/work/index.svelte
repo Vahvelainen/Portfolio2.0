@@ -2,6 +2,42 @@
   //Relacote this file
   import index from './workindex'
   import Media from '../components/workmedia.svelte'
+
+  //Scroll follow for mobile view
+  //Will not work with SSR if ever is turned on
+  let ticking = false;
+  document.addEventListener('scroll', function() {
+    if ( window.innerWidth > 700 ) return
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        setOnScrollClass();
+        setTimeout(() => {
+          ticking = false;
+        }, 80);
+      });
+      ticking = true;
+    }
+  });
+
+  function setOnScrollClass() {
+    const elemnts = document.querySelectorAll('.work > article');
+    if (elemnts.length == 0) {
+      return;
+    }
+    const top = elemnts[0].getBoundingClientRect().top;
+    const bottom = elemnts[elemnts.length-1].getBoundingClientRect().bottom;
+    const height = bottom - top;
+    const relativeScroll = - (top - innerHeight / 2 ) / height;
+    const i = Math.round( relativeScroll * elemnts.length)
+    elemnts.forEach(element => {
+      element.classList.remove('on-scroll');
+    })
+    if ( i >= 0 && i <= elemnts.length - 1 ) {
+      elemnts[i].classList.add('on-scroll');
+    }
+  };
+
+
 </script>
 
 <section>
@@ -55,20 +91,20 @@
     background-color: rgba(0,0,0,0.8);
     color: white;
     transition: 100ms ease-out;
-
   }
 
   .media {
-    height: 100%;;
-  }
-
-  article:hover .media {
-    transform: scale(1.2);
+    height: 100%;
     transition: 100ms linear;
   }
 
-  article:hover .info {
-    opacity: 1;
+  @media all and (min-width: 700px) {
+    article:hover .media {
+      transform: scale(1.2);
+    }
+    article:hover .info {
+      opacity: 1;
+    }
   }
 
   @media all and (max-width: 700px) {
@@ -77,6 +113,13 @@
     }
     article {
       width: 50%
+    }
+
+    article.on-scroll a .media {
+      transform: scale(1.2);
+    }
+    article.on-scroll a .info {
+      opacity: 1;
     }
   }
   
