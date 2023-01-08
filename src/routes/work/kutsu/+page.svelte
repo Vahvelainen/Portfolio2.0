@@ -60,8 +60,8 @@
     The app had a landing page with the possibility to join a waitlist to become a beta tester. Some users from the pilots - although not very many find their way to the landing page unfortunately none of them left their email there. This led to the conclusion that there isn’t too much demand for the app as it is to justify perfecting it and the development was put on pause. Overall the project was successful as an experiment and the service might see future development in case new demand is found.
   </p>
 
-  <a href="/work" data-link>Kutsu.app website</a>
-  <a href="/work" data-link>Demo event</a>
+  <a href="https://kutsu.app/" data-link>Kutsu.app website</a>
+  <a href="https://kutsu.app/event?e=s32uBkiZne99kfZ9jTmv" data-link>Demo event</a>
 
 
   <a class='nav-back' href="/work" data-link>Return to other works</a>
