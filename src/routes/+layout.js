@@ -6,4 +6,4 @@ export const prerender = true;
 export const ssr = false;
 
 //Client side renderign is acceptable
-export const csr = false;
+export const csr = true;
