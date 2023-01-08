@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Leevi Vahvelainen Portfolio | Vahvelainen.com</title>
+	<meta name="description" content="Online portfolio of Leevi Vahvelainen" />
+</svelte:head>
+
 <script>
   import Hero from '@lib/hero.svelte'
   import History from '@lib/history.svelte'
