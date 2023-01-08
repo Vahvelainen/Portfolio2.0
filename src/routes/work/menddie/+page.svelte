@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Menddie.com | Vahvelainen.com</title>
+	<meta name="description" content="Ecommerce platform for repair services by Leevi Vahvelainen" />
+</svelte:head>
+
 <section class="work-view">
   <img data-fancybox="menddie" alt="Old Menddie mobileviews designed by Leevi Vahvelainen" class="header" src="../images/menddie.png">
   

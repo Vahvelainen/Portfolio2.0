@@ -1,5 +1,10 @@
+<svelte:head>
+  <title>Kutsu.app | Vahvelainen.com</title>
+	<meta name="description" content="Online event invitation tool by Leevi Vahvelainen" />
+</svelte:head>
+
 <section class="work-view">
-    <img data-fancybox="kutsu" alt="Old Menddie mobileviews designed by Leevi Vahvelainen" class="header" src="../images/kutsu.png">
+    <img data-fancybox="kutsu" alt="Kutsu app event by Leevi Vahvelainen" class="header" src="../images/kutsu.png">
   
   <h1>Kutsu.app</h1>
   

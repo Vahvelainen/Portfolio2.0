@@ -1,5 +1,6 @@
 <svelte:head>
-  
+  <title>Amapper | Vahvelainen.com</title>
+	<meta name="description" content="Ai based affinity mapping tool by Leevi Vahvelainen" />
 </svelte:head>
 
 <section class="work-view">
@@ -27,7 +28,7 @@
   </p>
 
   <p>
-    <a href="https://amapper.vahvelainen.com/">
+    <a href="https://amapper.Vahvelainen.com/">
       Link to an online demo
     </a>
   </p>
