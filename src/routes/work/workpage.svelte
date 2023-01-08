@@ -5,7 +5,7 @@
 
 <section class="work">
   {#each index as work}
-    <article id={work.title}>
+    <article id={encodeURI(work.title)}>
       <Media 
         src={work.media}
         alt={"Picture of " + work.title + " by Leevi Vahvelainen for " + work.paragraphs[work.paragraphs.length-1]}
@@ -34,12 +34,6 @@
     background-color: rgb(245, 245, 245);
     align-items: center;
   }
-  .work-intro {
-    text-align: center;
-    padding-top: 4em;
-    padding-bottom: 2em;
-    width: 100%;
-  }
   article, a {
     display: flex;
     margin-bottom: 8em;
@@ -57,15 +51,11 @@
   }
   
   @media all and (max-width: 700px) {
+    section {
+      padding: 0;
+    }
     article {
       flex-direction: column;
-    }
-    embed, img, video {
-      max-width: 100%;
-      height: unset;
-      min-height: 100vw;
-      max-height: 60%;
-      margin: 0 0 3em;
     }
     div {
       padding: 0 1em;
