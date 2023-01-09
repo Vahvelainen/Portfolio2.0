@@ -3,29 +3,31 @@
 </script>
 
 <section class="bio"> 
-  <img src={biomage} alt="Potrait of Leevi Vahvelainen in Startup Sauna 2018">
-  <div>
-    <h2>Bio</h2>
-    <p>
-      I'm Leevi Vahvelainen and I like to solve problems with purpose in mind.
-    </p>
-    <p>
-      As a designer, I'm the one who combines purpose and usability with technical implementation. With the design, user's needs come first with the goal of finding simple and creative solutions. No design is useful if it's not delivered properly, working with the technical execution is also what I find very meaningful.
-    </p>
-    <p>
-      I've done projects from art to building businesses and my core strength is the capacity to consider many aspects and learn new skills required quickly. I believe elegance and quality to be the key to sustainable designs.
-    </p>
+  <div class="content">
+    <img src={biomage} alt="Potrait of Leevi Vahvelainen in aGrid Otaniemi 2021 taken by Tiina Nyman">
+    <div class="text">
+      <h2>Bio</h2>
+      <p>
+        I'm Leevi Vahvelainen, a designer and developer based in Helsinki Finland. I have worked on various projects including events for over 300 people and industrial design concepts. I'm most familiar with online platforms.
+      </p>
+      <p>
+        I have the most experience in designing and leading projects where I like to take a strategic and focused approach. In the end, delivering is what matters, and focusing on what is most important allows learning quickly. My developer capabilities lie in front-end and javascript but I'm familiar with most common full-stack solutions. Creating tangible and smooth user interactions and logistics inspire me more than back-end communication. Visually I get the job done.
+      </p>
+      <p>
+        I'm always out there to learn new skills and concepts. The things I know how to do today won't prevent me from doing something new tomorrow.
+      </p>
+    </div>
   </div>
 </section>
 
 <style>
-  .bio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: wheat;
-  padding-top: 8em;
-  padding-bottom: 10em;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e7e7;
+    padding-top: 8em;
+    padding-bottom: 10em;
   }
   img {
     width: 20%;
@@ -33,11 +35,16 @@
     object-fit: contain;
     margin-right: 4em;
   }
-  div {
+  .text {
     max-width: 480px;
   }
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 1200px) {
     .bio {
+      background-color: #e7e7e7;
+    }
+  }
+  @media all and (max-width: 500px) {
+    .content {
       flex-direction: column;
       padding-top: 4em;
       padding-bottom: 6em;
