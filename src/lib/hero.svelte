@@ -1,40 +1,74 @@
 <script>
-  import heroImage from '@lib/media/cover.jpg'
+  import heroImage from '@lib/media/lio.png'
 </script>
 
 <section>
-  <div class='hero' style="background-image: url('{heroImage}');">
-    <h1>Leevi Vahvelainen</h1>
-    <p class='subtitle'>Designer</p>
-    <p>
-      At the age of four, I used my first knife to strip a piece of wood and gave it to my grandpa to stun fish with. 
-      That was the first product I build and I wouldn't yet know it was going to be what I do for my life's work.
-    </p>
-    <p>
-      Designing solutions and building them is what I do and what I've always done and what I enjoy doing. 
-      Welcome to take a look at some of that work of mine.
-    </p>
+  <div class='hero'>
+    <img src={heroImage} alt="Leevi strolling in the streets of Istanbul in balck and white">
+    <div class="text">
+      <h1>Leevi Vahvelainen</h1>
+      <p class='subtitle'>Design, Technology & Entrepreneurship</p>
+      <p class="story" >
+        A designer and developer who is not afraid of learning how things work and start building. 
+        Making world a better place by using right solutions in right situations.
+      </p>
+    </div>
   </div>
 </section>
 
 <style>
-  .hero {
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    color: white;
-    padding-top: 8em;
+  .text {
+    width: 40%;
+    padding-top: 14em;
     padding-bottom: 8em;
+    min-width: 400px;
+    z-index: 1;
   }
-  p {
-    max-width: 480px;
+  .subtitle {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+  .hero {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+  }
+  img {
+    margin-top: auto;
+    max-height: 30em;
+    /* margin-left: 12em; */
+  }
+  .story {
+    max-width: 400px;
   }
   @media all and (max-width: 1200px) {
     section {
       padding: 0;
+    }
+  }
+  @media all and (max-width: 700px) {
+    section {
+      padding: 0;
+    }
+    .hero {
+      position: relative;
+    }
+    img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: .3;
+    }
+  }
+  @media all and (max-width: 500px) {
+    .text {
+      width: 100%;
+      padding: 8em 2em;
+      min-width: unset;
+    }
+    img {
+      left: unset;
     }
   }
 </style>
