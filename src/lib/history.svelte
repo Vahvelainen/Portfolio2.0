@@ -7,15 +7,26 @@
   </div>
   
   <article>
-    <h3>Founding and leading startup named Menddie.com</h3>
+    <h3>Software consultant at Parvus Vulpes Oy</h3>
+    <p class='years'>2022-</p>
+    <p>
+      I am utilizing my software, design and business knowledge as a part time consultant while doing my masters degree in design.
+    </p>
+    <p>
+      Responsibilities include Ux-reviews, design, project specifications while communicating with clients.
+    </p>
+  </article>
+
+  <article>
+    <h3>Founding and leading Menddie.com</h3>
     <p class='years'>2020-2021</p>
     <p>
-      Could I really build something of my own if I wanted? Based on coursework, I founded a repair service platform company. We build a team, and a product and were able to rise 100K€ funding from Finnish angel investors. We did get a bunch of good customers but the business side wasn't that successful I decided to return to study.
+      Could I really build something of my own if I wanted? I founded a repair service platform company that was originally developed in Aalto University. We build a team, and a product and were able to rise 100K€ funding from Finnish angel investors. We did get a bunch of good customers but the business side wasn't that successful I decided to return to study.
     </p>
     
     <p>
-      I used around half of my time with the design of the platform, including a variety of methods like reviews, user testing, customer journeys, AB-testing 
-      and learned a lot about building digital services and entrepreneurship that I can proudly say it was a two years well spend.
+      I used around half of my time with the design of the platform, including a variety of methods like reviews, user testing, customer journeys, AB-testing. 
+      It was a two years well spend learning a lot about building digital services and entrepreneurship.
     </p>
   </article>
   
