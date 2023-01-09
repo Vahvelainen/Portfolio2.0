@@ -15,7 +15,9 @@
   {#if mediaType === 'jpg' || mediaType === 'png'}
     <img src={src} alt={alt} data-fancybox='wrk' class={theClass} >
   {:else if mediaType === 'mp4' }
-    <video autoplay muted loop src={src} alt={alt} class={theClass}></video>
+    <video autoplay muted loop webkit-playsinline playsinline class={theClass}>
+      <source src={src} type="video/mp4">
+    </video>
   {:else }
     <embed src={src} class={theClass}>
   {/if}
