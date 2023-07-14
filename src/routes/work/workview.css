@@ -10,8 +10,8 @@
   object-fit: cover;
 }
 .work-view h2, .work-view h3 {
-  padding-top: 4em;
-  font-weight: 600;
+  padding-top: 2em;
+  font-weight: 400;
 }
 .work-view img{
   max-width: 40%;

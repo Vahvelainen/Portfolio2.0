@@ -25,6 +25,9 @@
 </section>
 
 <style>
+  section {
+    padding-top: 10em;
+  }
   img {
     max-width: 20em;
   }
