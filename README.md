@@ -1,6 +1,6 @@
 # Leevi's portfolio 2023
 
-Updated version now 200% cooler for using a JS framework and 100% cheaper for hosting in Googles servers.
+Updated version now 200% cooler for using a JS framework and 100% cheaper for hosting in Google's servers.
 
 ## Projects
 
