@@ -10,8 +10,13 @@ import Tape from './Tape-applicator.json'
 import Valmet from './Valmet.json'
 import Water from './Water-purifier.json'
 import Kutsu from './Kutsu.json'
+import VoiceYoga from './VoiceYoga.json'
+
+//I am not happy with the complexity of this system
+//Should transfer to headless CMS
 
 const index = [
+  VoiceYoga,
   Kutsu,
   aMapper,
   Menddie,

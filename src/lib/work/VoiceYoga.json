@@ -1,0 +1,13 @@
+{
+  "title": "VoiceYoga",
+  "media": "./images/voiceyoga.png",
+  "full_page" : "/work/voiceyoga",
+  "paragraphs": [
+    "A web-based yoga application for blind people.",
+    "The application uses image recognition to give user advice on getting to the yoga positions.",
+    "For interaction, the application uses a combination of text-to-speech, voice commands, and a graphical user interface.",
+    "Build together with Tuomo Väänänen, Yujun Zhu, Yifan Hao and Xinyi Cao",
+    "Course project for the course CS-E4200 - Emergent User Interfaces",
+    "2023 Aalto University"
+  ]
+}
