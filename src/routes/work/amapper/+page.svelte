@@ -28,7 +28,7 @@
   </p>
 
   <p>
-    <a href="https://amapper.Vahvelainen.com/">
+    <a href="https://amapper.web.app/">
       Link to an online demo
     </a>
   </p>
