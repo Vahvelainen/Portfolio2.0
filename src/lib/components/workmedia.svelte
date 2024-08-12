@@ -12,7 +12,7 @@
   };
 </script>
 
-  {#if mediaType === 'jpg' || mediaType === 'png'}
+  {#if mediaType === 'jpg' || mediaType === 'jpeg' || mediaType === 'png'}
     <img src={src} alt={alt} data-fancybox='wrk' class={theClass} >
   {:else if mediaType === 'mp4' }
     <video autoplay muted loop webkit-playsinline playsinline class={theClass}>
