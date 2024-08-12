@@ -1,6 +1,6 @@
 {
   "title": "Kutsu.app",
-"media": "./images/kutsu.png",
+  "media": "./images/kutsu.png",
   "full_page" : "/work/kutsu",
   "paragraphs": [
     "Web based event signup application.",

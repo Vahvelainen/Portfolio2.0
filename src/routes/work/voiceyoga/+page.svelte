@@ -25,17 +25,17 @@
   </h2>
   
   <p>
-    The project was done as coursework with a mixed team of design and computer science students for the course CS-E4200 - Emergent User Interfaces at Aalto University. The assignment was to create any kind of health application that uses some kind of emerging user interface technology, meaning not only a screen, mouse, or keyboard.
+    The project was a coursework with a mixed team of design and computer science students for the course CS-E4200 - Emergent User Interfaces at Aalto University. The assignment was to create any kind of health application that uses some kind of emerging user interface technology, meaning not only a screen, mouse, or keyboard.
   </p>
 
   <p>
-    The technology for the project started only to exchange the experience of regular yoga users. Image recognition to give feedback and/or score and a voice user interface for hands-free operation. However, Tuomo - the other designer on the team - noted that the technology would be perfectly suited for visually impaired people (who usually actually are capable of using phones). With that focus the development focused on a yoga experience that didn’t rely on any visual feedback.
+    The purpose for technology for the project was initially to merely exchange the experience of regular yoga users. Image recognition to give feedback and/or score and a voice user interface for hands-free operation. However, Tuomo - the other designer on the team - noted that the technology would be perfectly suited for visually impaired people (who usually are capable of using phones with accessiblity functions). After choosing that direction the development focused on a yoga experience that didn’t rely on any visual feedback.
   </p>
   
 
   <h2>Design</h2>
 
-  <p>Since the focus was on visually impaired users, the design concentrated on setting the app up and giving instructions based on the phase user was at. The users ended to be able to set the device so that the camera can see them and the program needed to be able to give instructions if users were too far left or right for example. People who can see very well or even partly could find themselves in front of the camera quite easily.</p>
+  <p>Since the focus was on visually impaired users, the design concentrated on setting the app up and giving instructions based on the phase user was at. The users needed to be able to set the device so that the camera can see them and the program needed to be able to give instructions if users were too far left or right for example. People who can see very well or even partly could find themselves in front of the camera quite easily.</p>
 
   <p>The yoga part was a proof of concept that focused on carrying out certain moves from a simplified sun salutation routine. A test would check if the user has passed a certain condition for the posture, give advice if not and move to the next check it does. This is repeated for all the positions until the program is complete.</p>
 
@@ -48,11 +48,11 @@
 
   <h2>Technology</h2>
 
-  <p>The technology started with Python based but eventually switched to a web-based framework with svelteKit. Both of them used TensorFlow libraries for image recognition. After a Python demo that compared pictures of people in yoga positions, the approach was deemed too slow to develop and the technology was switched to svelteKit with Leevi’s lead. Thanks to the “lightning fast” developing experience of SvelteKIt and Tensorflow JS libraries and Web Speech API, the tack provided a working proof of concept with under 10 hours of development for one yoga position.</p>
+  <p>The technology started with Python based but eventually switched to a web-based framework with SvelteKit. Both of them used TensorFlow libraries for image recognition. After a Python demo that compared pictures of people in yoga positions, the approach was deemed too slow to develop and the technology was switched to SvelteKit with Leevi’s lead. Thanks to the “lightning fast” developing experience of SvelteKit and Tensorflow JS libraries and Web Speech API, the stack provided a working proof of concept within some 6 hours of development for one yoga position.</p>
 
-  <p>The component-based SvelteKit also provided an opportunity for creating a hybridity between voice and graphical user interface. A button can at the same moment be rendered on the screen and terms matching its action can be matched with one line of code. Also, text can be rendered at the same time it's broken aloud by Text To Speech.</p>
+  <p>The component-based SvelteKit also provided an opportunity for creating a hybridity between voice and graphical user interface. A button can at the same moment be rendered on the screen and voice commands matching its action can be combined to one component and defined with single line of code. Also, text can be rendered at the same time as it's spoken aloud by Text To Speech.</p>
 
-  <p>With some clever engineering, the framework also offered a relatively easy way to both manage Text To Speech with one function without creating issues of overlapping speech and match users’ voice commands to triggers all over the software without having multiple listening instances. Furthermore, it was possible to create a sub-framework for the yoga positions specifically that would run through the tests and move to the next position after they are all completed. If you are interested in technical development, I encourage you to read the whole project report given below.</p>
+  <p>With some clever engineering, the global stores in SvelteKit offered a relatively easy way to both manage Text To Speech with one function without creating issues of overlapping speech. Same aproach was used match users’ voice commands to triggers all over the software without having multiple listening instances. A single command would define the target words and a callback function. Furthermore, with the Svelte components we created a sub-framework for the yoga positions specifically that would run through the tests and move to the next position after they are all completed. If you are interested in technical development, I encourage you to read the whole project report given below.</p>
 
   <img data-fancybox="yoga" src="../images/voiceyoga/voicecode.png" alt="VoiceYoga starting screen">
   <img data-fancybox="yoga" src="../images/voiceyoga/posecode.png" alt="VoiceYoga exercise screen">
@@ -64,8 +64,6 @@
   <a href="https://voiceyoga.web.app/" data-link><p>Online demo</p></a>
   <a href="https://drive.google.com/file/d/15ru4CcXIN9KqlCapHFkyojp-UTxpnB8F/view?usp=drive_link" data-link><p>Full project report</p></a>
   <a href="https://github.com/Vahvelainen/Voice-yoga-web" data-link><p>Project Github</p></a>
-
-
 
   <a class='nav-back' href="/work" data-link>Return to other works</a>
 </section>

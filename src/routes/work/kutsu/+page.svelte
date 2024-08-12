@@ -9,7 +9,7 @@
   <h1>Kutsu.app</h1>
   
   <p>
-    Kutsu was developed after realizing no one uses facebook-events anymore - the usual way people in Aalto university found out who is coming to which event. The project started with a pitch “Facebook events without Facebook” which seemed like a perfect exercise for designing and developing an online application that had the potential to be actually useful.  The project was meant to be an exercise and wasn’t meant to have any business future.
+    I developed Kutsu after realizing no one uses facebook-events anymore - the usual way people in Aalto university found out who is coming to which event. The project started with a pitch “Facebook events without Facebook” which seemed like a perfect exercise for designing and developing an online application that had the potential to be actually useful.  The project was meant to be an exercise and wasn’t meant to have any business future.
   </p>
   
   <h2>
@@ -47,7 +47,7 @@
     With all these specifications in mind, the decision was to build the application using SvelteKit and Firebase. Firebase allows relatively low-effort user authentication and its database has purposely built security functions to support it. Svelte is a newer javascript framework that was chosen for the very simplified development experience and SvelteKit is a meta-framework for Svelte enabling routing and serverside rendering. To make the front-end look smooth from the beginning, a Svelte Material Ui (smui for short) was used, Googles material Ui was not compatible with Sveltekits serverside rendering.
   </p>
   <p>
-    The development required roughly six weeks before being already too good to be really called an MVP. Some bugs and features such as the option to delete events were still missing and added during and before the first pilots.
+    The development required roughly six weeks before being already too complete to be called an MVP. Some bugs and features such as the option to delete events were still missing and added during and before the first pilots.
   </p>
 
     <img data-fancybox="kutsu" src="../images/kutsu/eventPage.png" alt="Event poage of the Kutsu.app">
