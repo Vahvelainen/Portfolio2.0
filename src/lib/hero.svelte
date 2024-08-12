@@ -4,13 +4,13 @@
 
 <section>
   <div class='hero'>
-    <img src={heroImage} alt="Leevi strolling in the streets of Istanbul in balck and white">
+    <img src={heroImage} alt="Leevi strolling in the streets of Istanbul in black and white">
     <div class="text">
       <h1>Leevi Vahvelainen</h1>
       <p class='subtitle'>Design, Technology & Entrepreneurship</p>
       <p class="story" >
-        A designer and developer who is not afraid of learning how things work and start building. 
-        Making world a better place by using right solutions in right situations.
+        A designer and developer who will not be afraid to learn and start building. 
+        Join me in making the world a better place by discovering how tech is best applied to support human casues.
       </p>
     </div>
   </div>
