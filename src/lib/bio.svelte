@@ -8,13 +8,12 @@
     <div class="text">
       <h2>Bio</h2>
       <p>
-        I'm Leevi Vahvelainen, a designer and developer based in Helsinki Finland. I have worked on various projects including events for over 300 people and industrial design concepts. I'm most familiar with online platforms.
+        Hi! I’m what I would call a young product design professional. I dabble between design, software engineering, and business development. I have a degree in design from Aalto University, years of self-taught programming skills, and business experience from running a company to consulting others.
       </p>
       <p>
-        I have the most experience in designing and leading projects where I like to take a strategic and focused approach. In the end, delivering is what matters, and focusing on what is most important allows learning quickly. My developer capabilities lie in front-end and javascript but I'm familiar with most common full-stack solutions. Creating tangible and smooth user interactions and logistics inspire me more than back-end communication. Visually I get the job done.
-      </p>
+        Recently I have taken the opportunity to specialize in design of AI systems during my masters degree. Building on my software development experience, I have quickly gained experience in applying a variety of technologies to different use cases. Through my academic efforts I consider myself one of the few experts in designing these systems to be human friendly.      </p>
       <p>
-        I'm always out there to learn new skills and concepts. The things I know how to do today won't prevent me from doing something new tomorrow.
+        I am often credited by programmers for understanding their work, by clients of clear and proper presentation, and in general for being able to focus on the things that matter. My take on design is to be on with the good guys. I love novel problems and new challenges.
       </p>
     </div>
   </div>

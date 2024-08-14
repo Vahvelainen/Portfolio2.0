@@ -5,10 +5,29 @@
       Here is what I've done before in life
     </p>
   </div>
+
+  <article>
+    <h3>Research assistant at Aalto University</h3>
+    <p class='years'>2024</p>
+    <p>
+      Employed to the "Future Methods" research group to conduct research about use of Artificial Intelligences in the future. The result of the study is both my master's thesis and an academic paper about the methodology.
+    </p>
+  </article>
+
+  <article>
+    <h3>Freelace project manager for Orhi Oy</h3>
+    <p class='years'>2023-2024</p>
+    <p>
+      Continuing from Parvus, I worked briefly as a freelancer for Orhi Oy.
+    </p>
+    <p>
+      I was responsible for a project of adopting their car rental software uRent for a new client. The client had a ton of feature needs and integration partners and my job was to take care of these being developed.
+    </p>
+  </article>
   
   <article>
     <h3>Software consultant at Parvus Vulpes Oy</h3>
-    <p class='years'>2022-</p>
+    <p class='years'>2022-2023</p>
     <p>
       I am utilizing my software, design and business knowledge as a part time consultant while doing my masters degree in design.
     </p>
