@@ -12,11 +12,13 @@ import Water from './Water-purifier.json'
 import Kutsu from './Kutsu.json'
 import VoiceYoga from './VoiceYoga.json'
 import Creativerse from './Creativerse.json'
+import AIwork from './AIwork.json'
 
 //I am not happy with the complexity of this system
 //Should transfer to headless CMS
 
 const index = [
+  AIwork,
   Creativerse,
   VoiceYoga,
   Kutsu,
