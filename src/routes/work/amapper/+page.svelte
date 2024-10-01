@@ -23,19 +23,22 @@
     On top of the technical side, the project is an minimalistic styling experiment for an online tool. The aim of the design is to make the tool easy to approach, use, and to play with.
   </p>
 
-  <p>
-    The tool is work in progress. The next step is to ask feedback from design or other professionals who might find it usefull. From this, determine is this kind of tool usefull at all and develop it accordingly.  
+  <p class="note">
+    Update 2024: This was a very crude and low tech demo I made when beginning to learn AI technologies. 
+    TF-IDF is an outdated approach, but the general principle is very much usable with more advanced deep learning models such as openAI embeddings or SBERT. However, those models are harder to run in the browser. 
+    The implementation of algorithms is still kinda cool as it is pure handwritten JS (before ChatGPT mind you). I made the github repo a bit more readable, and its available on 
+    <a href="https://github.com/Vahvelainen/aMapper">github</a>
   </p>
 
   <p>
     <a href="https://amapper.web.app/">
-      Link to an online demo
+      Online demo
     </a>
   </p>
 
   <p>
     <a href="https://github.com/Vahvelainen/aMapper">
-      Link to github repository
+      Github repository
     </a>
   </p>
 
