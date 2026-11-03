@@ -76,8 +76,8 @@ export function KutsuPage() {
         database has purposely built security functions to support it. Svelte is a newer javascript
         framework that was chosen for the very simplified development experience and SvelteKit is a
         meta-framework for Svelte enabling routing and serverside rendering. To make the front-end
-        look smooth from the beginning, a Svelte Material Ui (smui for short) was used, Googles
-        material Ui was not compatible with Sveltekits serverside rendering.
+        look smooth from the beginning, a Svelte Material Ui (smui for short) was used, Google's
+        Material UI was not compatible with SvelteKit's serverside rendering.
       </p>
       <p>
         The development required roughly six weeks before being already too complete to be called an
@@ -87,7 +87,7 @@ export function KutsuPage() {
 
       <Gallery
         images={[
-          { src: "/images/kutsu/eventPage.png", alt: "Event poage of the Kutsu.app" },
+          { src: "/images/kutsu/eventPage.png", alt: "Event page of the Kutsu.app" },
           {
             src: "/images/kutsu/eventEdit.png",
             alt: "Kutsu.apps Ux flow and database structure in figma",

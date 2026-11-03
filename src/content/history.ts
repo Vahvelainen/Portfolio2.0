@@ -11,7 +11,7 @@ export const history: HistoryEntry[] = [
     ],
   },
   {
-    title: "Freelace project manager for Orhi Oy",
+    title: "Freelance project manager for Orhi Oy",
     years: "2023-2024",
     paragraphs: [
       "Continuing from Parvus, I worked briefly as a freelancer for Orhi Oy.",
@@ -30,8 +30,8 @@ export const history: HistoryEntry[] = [
     title: "Founding and leading Menddie.com",
     years: "2020-2021",
     paragraphs: [
-      "Could I really build something of my own if I wanted? I founded a repair service platform company that was originally developed in Aalto University. We build a team, and a product and were able to rise 100K€ funding from Finnish angel investors. We did get a bunch of good customers but the business side wasn't that successful I decided to return to study.",
-      "I used around half of my time with the design of the platform, including a variety of methods like reviews, user testing, customer journeys, AB-testing. It was a two years well spend learning a lot about building digital services and entrepreneurship.",
+      "Could I really build something of my own if I wanted? I founded a repair service platform company that was originally developed in Aalto University. We build a team, and a product and were able to raise 100K€ funding from Finnish angel investors. We did get a bunch of good customers but the business side wasn't that successful I decided to return to study.",
+      "I used around half of my time with the design of the platform, including a variety of methods like reviews, user testing, customer journeys, AB-testing. It was a two years well spent learning a lot about building digital services and entrepreneurship.",
     ],
   },
   {
@@ -69,7 +69,7 @@ export const history: HistoryEntry[] = [
     title: "Wood artisan degree",
     years: "2012 - 2015",
     paragraphs: [
-      "When I was younger my interest in crafts got me to study woodworking. Besides crafts, the degree included product design basics and learning to consider efficient manufacturing. It was here that I interested in product development and decided to apply to Aalto University to study design.",
+      "When I was younger my interest in crafts got me to study woodworking. Besides crafts, the degree included product design basics and learning to consider efficient manufacturing. It was here that I became interested in product development and decided to apply to Aalto University to study design.",
     ],
   },
 ];

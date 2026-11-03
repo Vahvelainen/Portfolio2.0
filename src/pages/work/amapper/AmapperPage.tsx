@@ -9,9 +9,9 @@ export function AmapperPage() {
 
       <ul>
         <li>Ai based affinity mapping tool</li>
-        <li>Tool goups input documents (ie. customer feedback) into similiar themes</li>
+        <li>Tool groups input documents (ie. customer feedback) into similar themes</li>
         <li>Algorithm used is Spherical K-means mapping with TF-IDF vectorization</li>
-        <li>All in your browser window: no data is transferred trough internet</li>
+        <li>All in your browser window: no data is transferred through the internet</li>
       </ul>
 
       <p>

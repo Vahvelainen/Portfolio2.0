@@ -7,7 +7,7 @@ export const works: Work[] = [
     media: "/images/AIwork.png",
     paragraphs: [
       "What type of Human-AI collaboration will be best for future knowledge workers?",
-      "Study done for the Future Methods research group in Aalto University deparment of design, which combines methods from future studies to HCI reserch.",
+      "Study done for the Future Methods research group in Aalto University department of design, which combines methods from future studies to HCI research.",
       "Status ongoing, will add results when they are published",
       "Master thesis study",
       "2024 Aalto University",
@@ -19,7 +19,7 @@ export const works: Work[] = [
     media: "/images/creativerse/closeup.jpg",
     paragraphs: [
       "Turn lego buildings into finished products with generative artificial intelligence",
-      "Build together with Lu Zhouyating, Hannah Qiu, and Yunyin Lou",
+      "Built together with Lu Zhouyating, Hannah Qiu, and Yunyin Lou",
       "Course work for DFP008 Artifice: Aesthetics and Ethics of Artificial Intelligence",
       "2023 Eindhoven University of Technology",
     ],
@@ -33,7 +33,7 @@ export const works: Work[] = [
       "A web-based yoga application for blind people.",
       "The application uses image recognition to give user advice on getting to the yoga positions.",
       "For interaction, the application uses a combination of text-to-speech, voice commands, and a graphical user interface.",
-      "Build together with Tuomo Väänänen, Yujun Zhu, Yifan Hao and Xinyi Cao",
+      "Built together with Tuomo Väänänen, Yujun Zhu, Yifan Hao and Xinyi Cao",
       "Course project for the course CS-E4200 - Emergent User Interfaces",
       "2023 Aalto University",
     ],
@@ -45,7 +45,7 @@ export const works: Work[] = [
     media: "/images/kutsu.png",
     paragraphs: [
       "Web based event signup application.",
-      "Personal project for web design and developement.",
+      "Personal project for web design and development.",
       "2022",
     ],
     hasPage: true,

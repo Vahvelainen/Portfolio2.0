@@ -13,7 +13,7 @@ export function VoiceYogaPage() {
       </p>
 
       <p>
-        Build together with Leevi Vahvelainen, Tuomo Väänänen, Yujun Zhu, Yifan Hao, and Xinyi Cao.
+        Built together with Leevi Vahvelainen, Tuomo Väänänen, Yujun Zhu, Yifan Hao, and Xinyi Cao.
       </p>
 
       <h2>Video Demo</h2>
@@ -27,7 +27,7 @@ export function VoiceYogaPage() {
         className="aspect-video h-auto w-full"
       ></iframe>
 
-      <h2>Spesification</h2>
+      <h2>Specification</h2>
 
       <p>
         The project was a coursework with a mixed team of design and computer science students for
@@ -41,7 +41,7 @@ export function VoiceYogaPage() {
         of regular yoga users. Image recognition to give feedback and/or score and a voice user
         interface for hands-free operation. However, Tuomo - the other designer on the team - noted
         that the technology would be perfectly suited for visually impaired people (who usually are
-        capable of using phones with accessiblity functions). After choosing that direction the
+        capable of using phones with accessibility functions). After choosing that direction the
         development focused on a yoga experience that didn’t rely on any visual feedback.
       </p>
 
@@ -105,7 +105,7 @@ export function VoiceYogaPage() {
       <p>
         With some clever engineering, the global stores in SvelteKit offered a relatively easy way
         to both manage Text To Speech with one function without creating issues of overlapping
-        speech. Same aproach was used match users’ voice commands to triggers all over the software
+        speech. Same approach was used match users’ voice commands to triggers all over the software
         without having multiple listening instances. A single command would define the target words
         and a callback function. Furthermore, with the Svelte components we created a sub-framework
         for the yoga positions specifically that would run through the tests and move to the next

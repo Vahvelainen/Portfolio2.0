@@ -6,7 +6,7 @@ export function MenddiePage() {
     <WorkArticle
       cover={{
         src: "/images/menddie.png",
-        alt: "Old Menddie mobileviews designed by Leevi Vahvelainen",
+        alt: "Old Menddie mobile views designed by Leevi Vahvelainen",
       }}
     >
       <h1>Menddie.com</h1>
@@ -25,8 +25,8 @@ export function MenddiePage() {
       <p>
         Menddie is a startup founded originally by Leevi Vahvelainen (Me) and Henri Kämäräinen in
         late 2019. Leevi did the design work for the platform and the service, while Henri focussed
-        the business side. Later additions to the developing team where Elias Ojala and Simo
-        Naatula, both doing software development.
+        the business side. Later additions to the developing team were Elias Ojala and Simo Naatula,
+        both doing software development.
       </p>
 
       <h2>Key features the platform included:</h2>
@@ -35,7 +35,7 @@ export function MenddiePage() {
         <li>Quote asking system between customers and service providers</li>
         <li>Online payment and order experience</li>
         <li>Immediate 7-digit delivery code after purchase</li>
-        <li>Service provider review and reting</li>
+        <li>Service provider review and rating</li>
       </ul>
 
       <Gallery
@@ -90,7 +90,7 @@ export function MenddiePage() {
 
       <Gallery images={[{ src: "/images/menddie/Group 10.png", alt: "Quote request form" }]} />
       <h2>Cart & Checkout</h2>
-      <p>The customerr experience was tied together with a very sophisticated checkout process.</p>
+      <p>The customer experience was tied together with a very sophisticated checkout process.</p>
       <Gallery
         images={[
           { src: "/images/menddie/Group 7.png", alt: "Shopping cart" },

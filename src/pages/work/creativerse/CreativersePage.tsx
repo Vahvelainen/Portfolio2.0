@@ -15,7 +15,7 @@ export function CreativersePage() {
         Creativerse is a result from a project course in Eindhoven University of technology. The
         project was done as a group effort with other design students in the “Artifice” squad
         standing for Aesthetics and Ethics in Artificial intelligence. The project's theme was AI
-        for design and creativity and was done to Phillips museum. The project contained me as an
+        for design and creativity and was done to Philips museum. The project contained me as an
         exchange student and three fresh Industrial Design master students. As usual, I was
         responsible for technological development and this time I was directing my design efforts
         into empowering my groupmates to utilize their creativity during the project.
@@ -30,9 +30,9 @@ export function CreativersePage() {
       <h2>“You too can be a designer”</h2>
 
       <p>
-        The project took a direction of showcasing Phillips product design by allowing visitors to
+        The project took a direction of showcasing Philips product design by allowing visitors to
         visualize finished versions of their designs built from lego blocks. The “alternative
-        dimension” was created with a webcam picture enchanted with Stable Diffusion API from
+        dimension” was created with a webcam picture enhanced with Stable Diffusion API from
         stability.ai. To make the system “museum visitor proof” predefined options for the product
         category, material, style etc. were used that users could select.
       </p>
@@ -95,11 +95,11 @@ export function CreativersePage() {
         images={[
           { src: "/images/creativerse/product.png", alt: "Product selection page" },
           { src: "/images/creativerse/picture.png", alt: "Taking image in the software" },
-          { src: "/images/creativerse/edit.png", alt: "Editing attributes of teh design" },
+          { src: "/images/creativerse/edit.png", alt: "Editing attributes of the design" },
           { src: "/images/creativerse/history.png", alt: "Selecting from previous generations" },
           {
             src: "/images/creativerse/gallery.png",
-            alt: "A board of user creations durign demoday",
+            alt: "A board of user creations during demoday",
           },
         ]}
       />
@@ -114,7 +114,7 @@ export function CreativersePage() {
 
       <p>
         The project was showcased in a demo day in the Eindhoven University of technology. Initially
-        the Phillips Museum representative was very keen to get it showcased in their upcoming AI
+        the Philips Museum representative was very keen to get it showcased in their upcoming AI
         exhibition. However - and just between you and me - their interest stopped after I asked my
         typical consulting rate and travel compensation to finish the project :)
       </p>
