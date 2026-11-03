@@ -11,4 +11,5 @@ export default [
   ...workPages,
   route("bio", "routes/bio.tsx"),
   route("history", "routes/history.tsx"),
+  route("*", "routes/not-found.tsx"),
 ] satisfies RouteConfig;
