@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import linkedIn from "@/assets/linkedin.svg";
+import { profile } from "@/content/profile";
 
 const LINKS = [
   { to: "/", label: "Dashboard" },
@@ -9,7 +10,7 @@ const LINKS = [
 ];
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
-  `py-2 text-night-ink no-underline decoration-2 hover:text-white ${isActive ? "underline" : ""}`;
+  `py-2 text-night-ink decoration-2 hover:text-white ${isActive ? "underline" : "no-underline"}`;
 
 export function Navbar() {
   return (
@@ -22,7 +23,7 @@ export function Navbar() {
             </NavLink>
           ))}
         </div>
-        <a href="https://www.linkedin.com/in/vahvelainen/" aria-label="LinkedIn">
+        <a href={profile.linkedIn} aria-label="LinkedIn">
           <img src={linkedIn} alt="" className="h-8 w-8" />
         </a>
       </div>
