@@ -54,11 +54,7 @@ export const works: Work[] = [
     slug: "amapper",
     title: "aMapper",
     media: "/images/aMapper.png",
-    paragraphs: [
-      "Browser based AI Affinity mapper tool",
-      "A weekend project",
-      "2022",
-    ],
+    paragraphs: ["Browser based AI Affinity mapper tool", "A weekend project", "2022"],
     hasPage: true,
   },
   {

@@ -19,7 +19,7 @@ export function HistorySection() {
 function HistoryItem({ entry }: { entry: HistoryEntry }) {
   return (
     <article className="mb-14 w-full max-w-[42.5rem] border-t border-hairline pt-6">
-      <p className="eyebrow mb-1">{entry.years}</p>
+      <p className="mb-1 eyebrow">{entry.years}</p>
       <h3 className="mb-3 text-xl">{entry.title}</h3>
       {entry.paragraphs.map((paragraph) => (
         <p key={paragraph.slice(0, 32)} className="mb-3 text-ink-2">

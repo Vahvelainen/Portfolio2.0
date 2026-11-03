@@ -1,7 +1,8 @@
 export const profile = {
   name: "Leevi Vahvelainen",
   tagline: "Design, Technology & Entrepreneurship",
-  intro: "A designer and developer who will not be afraid to learn and start building. Join me in making the world a better place by discovering how tech is best applied to support human casues.",
+  intro:
+    "A designer and developer who will not be afraid to learn and start building. Join me in making the world a better place by discovering how tech is best applied to support human casues.",
   heroAlt: "Leevi strolling in the streets of Istanbul in black and white",
   portraitAlt: "Potrait of Leevi Vahvelainen in aGrid Otaniemi 2021 taken by Tiina Nyman",
   email: "leevi.vahvelainen[at]gmail.com",

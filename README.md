@@ -6,7 +6,6 @@ Updated version now 200% cooler for using a JS framework and 100% cheaper for ho
 
 Projects are sadly restricted to what I have visual evidence about and what I'm allowed to show.
 
-
 ## Content
 
 I claim full rights to every piece of content and using them in any context without permission is not allowed excluding use by legal basis.

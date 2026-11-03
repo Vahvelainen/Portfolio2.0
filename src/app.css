@@ -12,10 +12,15 @@ body {
 }
 
 section {
-  padding: 0 calc( 100%/2 - 1200px/2 );
+  padding: 0 calc(100% / 2 - 1200px / 2);
 }
 
-p, h1, h2, h3, h4, h5 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 1em;

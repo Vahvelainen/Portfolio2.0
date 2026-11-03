@@ -7,7 +7,7 @@ export const history: HistoryEntry[] = [
     title: "Research assistant at Aalto University",
     years: "2024",
     paragraphs: [
-      "Employed to the \"Future Methods\" research group to conduct research about use of Artificial Intelligences in the future. The result of the study is both my master's thesis and an academic paper about the methodology.",
+      'Employed to the "Future Methods" research group to conduct research about use of Artificial Intelligences in the future. The result of the study is both my master\'s thesis and an academic paper about the methodology.',
     ],
   },
   {
