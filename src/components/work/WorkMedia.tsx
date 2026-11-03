@@ -30,7 +30,7 @@ function LoopVideo({ src, label, className }: { src: string; label: string; clas
     if (!video) return;
     // Prerendered HTML lacks the muted attribute, which browsers require for autoplay.
     video.muted = true;
-    video.play().catch(() => undefined);
+    Promise.resolve(video.play()).catch(() => undefined);
   }, []);
 
   return (
