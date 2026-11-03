@@ -1,1 +1,78 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ink: #1d1d1b;
+  --color-ink-2: #4a4a46;
+  --color-ink-3: #7a7a74;
+  --color-paper: #fbfaf7;
+  --color-mist: #f3f2ee;
+  --color-stone: #e8e6e0;
+  --color-cream: #f8f0e3;
+  --color-sand: #f5dcc0;
+  --color-night: #1f1f1f;
+  --color-night-ink: #ecebe7;
+  --color-accent: #00806a;
+  --color-accent-strong: #005f4f;
+  --color-hairline: rgb(29 29 27 / 0.12);
+
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --container-page: 75rem;
+  --container-text: 40rem;
+}
+
+@layer base {
+  body {
+    @apply bg-paper font-sans text-base leading-relaxed text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-semibold tracking-tight text-balance;
+  }
+
+  a {
+    @apply text-accent underline-offset-4 hover:text-accent-strong;
+  }
+}
+
+@utility page-title {
+  @apply text-4xl leading-tight md:text-5xl;
+}
+
+@utility section-title {
+  @apply mb-2 text-3xl;
+}
+
+@utility eyebrow {
+  @apply text-sm font-medium tracking-wide text-ink-3 uppercase;
+}
+
+@utility prose-work {
+  @apply text-ink-2;
+
+  & h1 {
+    @apply page-title mb-6 text-ink;
+  }
+  & h2 {
+    @apply mt-14 mb-4 text-2xl text-ink;
+  }
+  & h3 {
+    @apply mt-10 mb-3 text-xl text-ink;
+  }
+  & p,
+  & ul,
+  & ol {
+    @apply mb-5;
+  }
+  & ul {
+    @apply list-disc pl-6;
+  }
+  & ol {
+    @apply list-decimal pl-6;
+  }
+  & li {
+    @apply mb-1;
+  }
+}
