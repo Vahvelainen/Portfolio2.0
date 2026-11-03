@@ -7,6 +7,7 @@ export const profile = {
   portraitAlt: "Portrait of Leevi Vahvelainen in aGrid Otaniemi 2021 taken by Tiina Nyman",
   email: "leevi.vahvelainen[at]gmail.com",
   linkedIn: "https://www.linkedin.com/in/vahvelainen/",
+  gitHub: "https://github.com/Vahvelainen",
 };
 
 export const bio: string[] = [
