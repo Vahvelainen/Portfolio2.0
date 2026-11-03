@@ -1,3 +1,15 @@
+import { BioSection } from "@/components/sections/BioSection";
+import { Hero } from "@/components/sections/Hero";
+import { HistorySection } from "@/components/sections/HistorySection";
+import { WorkGrid } from "@/components/sections/WorkGrid";
+
 export function HomePage() {
-  return <h1>Leevi Vahvelainen</h1>;
+  return (
+    <>
+      <Hero />
+      <WorkGrid />
+      <BioSection />
+      <HistorySection />
+    </>
+  );
 }
